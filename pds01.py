@@ -18,7 +18,6 @@ for row in csv.reader(f):
         s=s+row[6]
     except:
         next(f)
-    print(type(row[6]))
 print(s)
 
 a = s/n
@@ -34,7 +33,6 @@ for row in csv.reader(f):
             si=si+row[6]
         except:
             next(f)
-    print(type(row[6]))
 print(si)
 ai = si/n
 print(ai)
@@ -49,7 +47,6 @@ for row in csv.reader(f):
             se=se+row[6]
         except:
             next(f)
-    print(type(row[6]))
 print(se)
 ae = se/n
 print(ae)
